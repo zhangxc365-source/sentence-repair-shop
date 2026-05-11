@@ -1,20 +1,38 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Sentence Repair Shop
 
-# Run and deploy your AI Studio app
+Fix the broken grammar, save the factory!
 
-This contains everything you need to run your app locally.
+## Deployment to GitHub Pages
 
-View your app in AI Studio: https://ai.studio/apps/3d690a35-6133-4291-be77-caf799de816d
+This project is configured for automated deployment to GitHub Pages via GitHub Actions.
 
-## Run Locally
+### Setup Instructions
 
-**Prerequisites:**  Node.js
+1.  **Repository Settings**:
+    *   Go to your GitHub repository **Settings** -> **Pages**.
+    *   Under **Build and deployment** > **Source**, select **GitHub Actions**.
 
+2.  **Environment Variables (Secrets)**:
+    *   Go to **Settings** -> **Secrets and variables** -> **Actions**.
+    *   Click **New repository secret**.
+    *   Add `VITE_GEMINI_API_KEY` with your Google Gemini API key.
+    *   *Note: Never share this key or commit it directly to the repository.*
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+3.  **Local Development**:
+    *   Install dependencies: `npm install`
+    *   Create a `.env.local` file and add your key: `VITE_GEMINI_API_KEY=your_key_here`
+    *   Run dev server: `npm run dev`
+
+### Deployment Flow
+
+Every push to the `main` branch will trigger the deployment workflow:
+1.  Code is checked out.
+2.  Dependencies are installed.
+3.  Project is built with `VITE_GEMINI_API_KEY` injected.
+4.  `dist/index.html` is copied to `dist/404.html` (to support SPA routing).
+5.  Built assets are uploaded to GitHub Pages.
+
+## Troubleshooting
+
+- **White screen on load**: Ensure the `base` path in `vite.config.ts` matches your GitHub repository name (currently set to `/sentence-repair-shop/`).
+- **404 on refresh**: The `404.html` workaround handles most cases, but ensure the `base` path is correctly configured.

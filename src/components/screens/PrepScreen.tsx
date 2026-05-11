@@ -32,7 +32,7 @@ export function PrepScreen({ language, currentRoundSentences, onStartPlaying }: 
               <div className="flex-1 min-w-0">
                 <p className="text-3xl font-black text-[#141414] mb-1">{s.chinese}</p>
                 <div className="flex flex-col">
-                  <p className="text-sm font-bold text-[#F27D26] mb-1">{s.pinyin?.toLowerCase() || ''}</p>
+                  <p className="text-sm font-bold text-[#F27D26] mb-1">{s.parts.map(p => p.pinyin).join(' ').toLowerCase()}</p>
                   <p className="text-base font-medium text-gray-500 italic">"{language === 'en' ? s.english : s.mongolian}"</p>
                 </div>
               </div>
