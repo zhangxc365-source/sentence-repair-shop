@@ -861,7 +861,7 @@ export default function App() {
               <div className="flex justify-center gap-3">
                 <button 
                   disabled={!s1 || placedParts.length === 0 || showFixedToy}
-                  onClick={handleRetract}
+                  onClick={() => handleRetract(1)}
                   className={`flex-1 py-4 text-sm font-black uppercase border-4 border-[#141414] shadow-[4px_4px_0px_0px_rgba(20,20,20,1)] active:shadow-none transition-all flex items-center justify-center gap-2 ${!s1 || placedParts.length === 0 || showFixedToy ? 'bg-gray-400 cursor-not-allowed opacity-50' : 'bg-[#F27D26] hover:bg-white text-[#141414]'}`}
                 >
                   <RotateCcw className="w-4 h-4" /> Undo
