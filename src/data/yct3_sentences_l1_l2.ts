@@ -341,7 +341,8 @@ export const yct3SentencesL1L2: Sentence[] = [
     chinese: "还有两个男学生。",
     parts: [
       { text: "还", pinyin: "hái" },
-      { text: "有", pinyin: "liǎng gè" },
+      { text: "有", pinyin: "yǒu" },
+      { text: "两个", pinyin: "liǎng gè" },
       { text: "男", pinyin: "nán" },
       { text: "学生", pinyin: "xuésheng" }
     ],
@@ -356,7 +357,8 @@ export const yct3SentencesL1L2: Sentence[] = [
     chinese: "还有三本汉语书。",
     parts: [
       { text: "还", pinyin: "hái" },
-      { text: "有", pinyin: "sān běn" },
+      { text: "有", pinyin: "yǒu" },
+      { text: "三本", pinyin: "sān běn" },
       { text: "汉语", pinyin: "hànyǔ" },
       { text: "书", pinyin: "shū" }
     ],
@@ -371,7 +373,8 @@ export const yct3SentencesL1L2: Sentence[] = [
     chinese: "还有一只小狗。",
     parts: [
       { text: "还", pinyin: "hái" },
-      { text: "有", pinyin: "yì zhī" },
+      { text: "有", pinyin: "yǒu" },
+      { text: "一只", pinyin: "yì zhī" },
       { text: "小狗", pinyin: "xiǎogǒu" }
     ],
     english: "There is also a puppy.",
@@ -385,7 +388,8 @@ export const yct3SentencesL1L2: Sentence[] = [
     chinese: "还有四个苹果。",
     parts: [
       { text: "还", pinyin: "hái" },
-      { text: "有", pinyin: "sì gè" },
+      { text: "有", pinyin: "yǒu" },
+      { text: "四个", pinyin: "sì gè" },
       { text: "苹果", pinyin: "píngguǒ" }
     ],
     english: "There are also four apples.",
@@ -399,7 +403,8 @@ export const yct3SentencesL1L2: Sentence[] = [
     chinese: "还有六个苹果。",
     parts: [
       { text: "还", pinyin: "hái" },
-      { text: "有", pinyin: "liù gè" },
+      { text: "有", pinyin: "yǒu" },
+      { text: "六个", pinyin: "liù gè" },
       { text: "苹果", pinyin: "píngguǒ" }
     ],
     english: "There are also six apples.",
@@ -413,7 +418,8 @@ export const yct3SentencesL1L2: Sentence[] = [
     chinese: "还有几个同学。",
     parts: [
       { text: "还", pinyin: "hái" },
-      { text: "有", pinyin: "jǐ gè" },
+      { text: "有", pinyin: "yǒu" },
+      { text: "几个", pinyin: "jǐ gè" },
       { text: "同学", pinyin: "tóngxué" }
     ],
     english: "There are also a few classmates.",
@@ -427,7 +433,8 @@ export const yct3SentencesL1L2: Sentence[] = [
     chinese: "还有一张桌子。",
     parts: [
       { text: "还", pinyin: "hái" },
-      { text: "有", pinyin: "yì zhāng" },
+      { text: "有", pinyin: "yǒu" },
+      { text: "一张", pinyin: "yì zhāng" },
       { text: "桌子", pinyin: "zhuōzi" }
     ],
     english: "There is also a table.",
@@ -441,7 +448,8 @@ export const yct3SentencesL1L2: Sentence[] = [
     chinese: "还有五支铅笔。",
     parts: [
       { text: "还", pinyin: "hái" },
-      { text: "有", pinyin: "wǔ zhī" },
+      { text: "有", pinyin: "yǒu" },
+      { text: "五支", pinyin: "wǔ zhī" },
       { text: "铅笔", pinyin: "qiānbǐ" }
     ],
     english: "There are also five pencils.",
@@ -455,7 +463,8 @@ export const yct3SentencesL1L2: Sentence[] = [
     chinese: "还有十个学生。",
     parts: [
       { text: "还", pinyin: "hái" },
-      { text: "有", pinyin: "shí gè" },
+      { text: "有", pinyin: "yǒu" },
+      { text: "十个", pinyin: "shí gè" },
       { text: "学生", pinyin: "xuésheng" }
     ],
     english: "There are also ten students.",

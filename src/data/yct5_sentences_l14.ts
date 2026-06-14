@@ -389,6 +389,7 @@ export const yct5SentencesL14: Sentence[] = [
       { text: "公园", pinyin: "gōngyuán" },
       { text: "，", pinyin: "" },
       { text: "然后", pinyin: "ránhòu" },
+      { text: "去", pinyin: "qù" },
       { text: "商店", pinyin: "shāngdiàn" },
       { text: "。", pinyin: "" }
     ],

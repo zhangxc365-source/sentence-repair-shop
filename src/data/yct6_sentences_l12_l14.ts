@@ -405,7 +405,7 @@ export const yct6SentencesL12L14: Sentence[] = [
   },
   {
     id: 61313,
-    chinese: "如果不他来，我们可能不去了。",
+    chinese: "如果他不来，我们可能不去了。",
     parts: [
       { text: "如果", pinyin: "rúguǒ" },
       { text: "他", pinyin: "tā" },

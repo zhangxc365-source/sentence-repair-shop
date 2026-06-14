@@ -443,7 +443,8 @@ export const yct5SentencesL10L11: Sentence[] = [
       { text: "考试", pinyin: "kǎoshì" },
       { text: "以后", pinyin: "yǐhòu" },
       { text: "我", pinyin: "wǒ" },
-      { text: "想", pinyin: "xiūxi xiūxi" },
+      { text: "想", pinyin: "xiǎng" },
+      { text: "休息休息", pinyin: "xiūxi xiūxi" },
       { text: "。", pinyin: "" }
     ],
     english: "I want to rest for a while after the exam.",

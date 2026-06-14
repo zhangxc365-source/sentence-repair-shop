@@ -327,6 +327,7 @@ export const yct5SentencesL12L13: Sentence[] = [
       { text: "吃", pinyin: "chī" },
       { text: "面条", pinyin: "miàntiáo" },
       { text: "或者", pinyin: "huòzhě" },
+      { text: "吃", pinyin: "chī" },
       { text: "饺子", pinyin: "jiǎozi" },
       { text: "都", pinyin: "dōu" },
       { text: "可以", pinyin: "kěyǐ" },
@@ -381,6 +382,7 @@ export const yct5SentencesL12L13: Sentence[] = [
       { text: "打", pinyin: "dǎ" },
       { text: "网球", pinyin: "wǎngqiú" },
       { text: "或者", pinyin: "huòzhě" },
+      { text: "打", pinyin: "dǎ" },
       { text: "排球", pinyin: "páiqiú" },
       { text: "都", pinyin: "dōu" },
       { text: "可以", pinyin: "kěyǐ" },
@@ -794,7 +796,7 @@ export const yct5SentencesL12L13: Sentence[] = [
   },
   {
     id: 51320,
-    chinese: "我不想一直在在这儿等着。",
+    chinese: "我不想一直在这儿等着。",
     parts: [
       { text: "我", pinyin: "wǒ" },
       { text: "不", pinyin: "bù" },

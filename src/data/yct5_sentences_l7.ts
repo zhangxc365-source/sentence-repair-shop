@@ -22,7 +22,7 @@ export const yct5SentencesL7: Sentence[] = [
   },
   {
     id: 50702,
-    chinese: "她经常去 hospital 看医生。",
+    chinese: "她经常去医院看医生。",
     parts: [
       { text: "她", pinyin: "tā" },
       { text: "经常", pinyin: "jīngcháng" },
@@ -262,7 +262,8 @@ export const yct5SentencesL7: Sentence[] = [
       { text: "，", pinyin: "" },
       { text: "而且", pinyin: "érqiě" },
       { text: "会", pinyin: "huì" },
-      { text: "打", pinyin: "pīngpāngqiú" },
+      { text: "打", pinyin: "dǎ" },
+      { text: "乒乓球", pinyin: "pīngpāngqiú" },
       { text: "。", pinyin: "" }
     ],
     english: "He not only can play tennis but also table tennis.",
@@ -281,8 +282,8 @@ export const yct5SentencesL7: Sentence[] = [
       { text: "唱歌", pinyin: "chànggē" },
       { text: "，", pinyin: "" },
       { text: "而且", pinyin: "érqiě" },
-      { text: "会", pinyin: "tiàowǔ" },
-      { text: "跳舞", pinyin: "" },
+      { text: "会", pinyin: "huì" },
+      { text: "跳舞", pinyin: "tiàowǔ" },
       { text: "。", pinyin: "" }
     ],
     english: "Younger sister can not only sing but also dance.",

@@ -462,7 +462,8 @@ export const yct3SentencesL8L11: Sentence[] = [
     parts: [
       { text: "你", pinyin: "nǐ" },
       { text: "还", pinyin: "hái" },
-      { text: "去", pinyin: "pǎobù" },
+      { text: "去", pinyin: "qù" },
+      { text: "跑步", pinyin: "pǎobù" },
       { text: "吗", pinyin: "ma" }
     ],
     english: "Are you still going for a run?",

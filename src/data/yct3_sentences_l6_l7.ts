@@ -681,7 +681,8 @@ export const yct3SentencesL6L7: Sentence[] = [
     chinese: "我们给姐姐唱歌吧。",
     parts: [
       { text: "我们", pinyin: "wǒmen" },
-      { text: "给", pinyin: "jiějie" },
+      { text: "给", pinyin: "gěi" },
+      { text: "姐姐", pinyin: "jiějie" },
       { text: "唱歌", pinyin: "chànggē" },
       { text: "吧", pinyin: "ba" }
     ],
